@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    overflow-x: hidden  ;
+}
+
+h1{
+    color: rgb(253, 253, 253);
+    text-shadow: 0 0 10px #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.box{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 30px;
+}
+
+.input__wrapper{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+
+    .subtext{
+        color: #aaaaaa;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 0 0 10px #fff;
+        position: absolute;
+        top: -20%;
+        left: 0%;
+    }
+
+    .subtext2{
+        color: #a0a0a0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        text-shadow: 0 0 10px #fff;
+        position: absolute;
+        top: 18%;
+        left: 0%;
+    }
+
+    .input{
+        padding: 10px 20px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        background: transparent;
+        color: #fff;
+        font-size: 16px;    
+        width: 100%;
+
+        &:hover{
+            border: 1px solid #fff;
+            border-radius: 5px;
+            background: transparent;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        &:focus{
+            border: 1px solid #fff;
+            border-radius: 5px;
+            background: transparent;
+            color: #fff;
+            font-size: 16px;
+        }
+    }
+
+    .btn{
+        padding: 10px 20px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        background: transparent;
+        color: #6d6d6d;
+        font-size: 16px;
+        cursor: pointer;
+
+        &:hover{
+            background: #2b2b2b;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            color: #6d6d6d;
+            font-size: 16px;    
+        }
+
+        &:active{
+            background: #969696;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            background: transparent;
+            color: #6d6d6d;
+            font-size: 16px;
+        }   
+    }
+}
+
+.result{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 0 auto;
+        padding: 10px 20px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        background: transparent;
+
+        .list{
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            padding: 10px;
+            border-bottom: 1px solid #fff   ;
+
+            .item{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                border-radius: 5px;
+                background: transparent;
+                color: #fff;
+                font-size: 16px;
+
+                .value{
+                    border-radius: 5px;
+                    background: transparent;
+                    color: #fff;
+                    font-size: 16px;
+                }
+            }
+
+            .deleteBtn{
+                padding: 10px 20px;
+                border: 1px solid #fff;
+                border-radius: 5px;
+                background: transparent;
+                color: #6d6d6d;
+                font-size: 16px;
+                cursor: pointer;
+
+                &:hover{
+                    background: #2b2b2b;
+                    border: 1px solid #fff;
+                    border-radius: 5px;
+                    color: #6d6d6d;
+                    font-size: 16px;    
+                }
+
+                &:active{
+                    background: #969696;
+                    border: 1px solid #fff;
+                    border-radius: 5px;
+                    background: transparent;
+                    color: #6d6d6d;
+                    font-size: 16px;
+                }   
+            }
+        }
+}
+
